@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">In this task, we practice making a form. The IDs are mainly for testing.</p>
+
+<form id="survey-form" method="POST">
+    <fieldset><legend>Personal Information</legend>
+        <label for="name" id="name-label">Name (required):</label>
+        <input required placeholder="Name" type="text" id="name" name="text" />
+
+        <label for="email" id="email-label">Email (required):</label>
+        <input required placeholder="Email" type="email" id="email">
+
+        <label for="number" id="number-label">Age:</label>
+        <input placeholder="20" type="number" id="number" min="3" max="100">
+    </fieldset>
+
+    <fieldset>
+        <label for="dropdown">Choose another</label>
+        <select id="dropdown">
+            <option value="valinta1">Selection 1</option>
+            <option value="valinta2">Selection 2</option>
+        </select><br />
+
+        <label for="radio">Pick one:</label>
+        <input type="radio" id="name" name="Radio" value="name"/>
+        <label for="name">Sam</label>
+        <input type="radio" id="name" name="Radio" value="name"/>
+        <label for="name">Matthew</label>
+    </fieldset>
+
+    <fieldset>
+        <input checked type="checkbox" value="Koira" />
+        <label for="koira">Koira</label>
+        <input type="checkbox" value="Kissa" />
+        <label for="kissa">Kissa</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="textarea">Do you want writing something?</label><br/>
+
+        <textarea rows="5" cols="100"></textarea>
+    </fieldset>
+    <button type="submit" id="submit">Submit</button>
+
+</form>
+</body>
+</html>

@@ -7,6 +7,8 @@ Very basic html element testing
 ## cat photo app
 A regular page that displays images, lists, and links.
 
-## cat blog 
-
+## cat blog
 If a cat wrote a blog. Blog template without functions. Semantic HTML.
+
+## form
+I'll practice working with the label element, the different input elements, the required attribute, and more.
